@@ -1,1 +1,1 @@
-# Eye-Blink-Counter-using-openCV
+# Eye-Blink-Counter-using-OpenCV
