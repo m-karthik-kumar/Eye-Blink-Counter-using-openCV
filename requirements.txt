@@ -1,0 +1,9 @@
+turtle
+cv2
+cvzone
+time
+schedule
+tkinter
+twilio
+PIL
+matplotlib
