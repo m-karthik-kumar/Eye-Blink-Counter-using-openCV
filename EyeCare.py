@@ -125,13 +125,15 @@ def refresh():
 
 # It is the threshold time limit after which the warning pops up
     if(blinkCounter <= 8):
-        account_sid = "AC0889855569ffd6e7ddcc6141053a430c"
-        auth_token = "4b2215ff4b5b4088366377de5e07a557"
-        client = Client(account_sid, auth_token)
-        client.messages.create(from_="+13187081897",
-                               body=f"Warning Message!! \n{name}\nYour eyes are getting strained !!\n Please move away from the screen and give some rest to your eyes.",
-                               to="+918884260008")
+        # account_sid = < copy the code from the twilio account >
+        # auth_token = < copy the code from the twilio account >
+        # client = Client(account_sid, auth_token)
+        # client.messages.create(from_=<Enter the given number>,
+                               # body=f"Warning Message!! \n{name}\nYour eyes are getting strained !!\n Please move away from the screen and give some rest to your eyes.",
+                               # to="+91 **********")
+        # Enter your registered phone number above
         messagebox.showwarning("ALERT", "Please give some rest to your eyes")
+        
     blinkCounter = 0
 
 
